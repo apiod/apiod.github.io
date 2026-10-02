@@ -7,7 +7,11 @@ const createContent = (data) => {
   });
   const checkedDetail = () => {
     if (!data.projectDetail) {
-      return "";
+      return `<div class="project-links">
+            <a href=${data.projectpage} target="_blank">
+            프로젝트 1
+            </a>
+            </div>`;
     } else {
       return `<button
             type="button"

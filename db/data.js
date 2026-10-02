@@ -50,6 +50,7 @@ const porjectKostaData = [
     content: "TODO List CRUD를 구현한 페이지입니다.",
     tech: ["HTML", "JavaScript", "CSS"],
     projcet_link: "https://github.com/apiod/TodoListHtml.git",
+    projectpage: "https://apiod.github.io/TodoListHtml/index.html",
   },
   {
     id: 1,
@@ -58,6 +59,7 @@ const porjectKostaData = [
     content: "과일 상점 예제를 한 페이지입니다.",
     tech: ["HTML", "JavaScript", "CSS"],
     projcet_link: "https://github.com/apiod/fruits_shop.git",
+    projectpage: "https://apiod.github.io/fruits_shop/index.html",
   },
   {
     id: 2,
@@ -66,6 +68,7 @@ const porjectKostaData = [
     content: "영화 페이지를 제작한 페이지입니다.",
     tech: ["HTML", "JavaScript", "CSS"],
     projcet_link: "https://github.com/apiod/movie_template.git",
+    projectpage: "https://apiod.github.io/movie_template/index.html",
   },
   {
     id: 3,
@@ -74,5 +77,6 @@ const porjectKostaData = [
     content: "WS 은행 예제를 푼 페이지입니다.",
     tech: ["HTML", "JavaScript", "CSS"],
     projcet_link: "https://github.com/apiod/kosta_WS_Bank.git",
+    projectpage: "https://apiod.github.io/kosta_WS_Bank/index.html",
   },
 ];
