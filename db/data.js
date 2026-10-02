@@ -80,3 +80,41 @@ const porjectKostaData = [
     projectpage: "https://apiod.github.io/kosta_WS_Bank/index.html",
   },
 ];
+
+const timelineData = [
+  {
+    title: "AI를 활용한 Java 기반 DevOps 개발자 양성",
+    date: "26.07.27 - 26.12.29",
+    subTitle: "Kosta Project",
+    content: `부족한 지식을 채우기 위해서 프로그램을 참여하게 되었습니다.
+    시작하기전에 Java 지식을 채우기 위해서 참여를 하였고
+    이 프로그램에서 JavaScript, React, Node.js, Docker등 
+    프로젝트에 필요한 지식을 배웠습니다. 
+    `,
+  },
+  {
+    title: "선문대학교",
+    date: "19.03 — 25.02",
+    subTitle: "컴퓨터공학 전공",
+    content: `대학교를 다니면서 다양한 전공 프로젝트를 수행하면서 
+    기획, 프로그래밍, 소프트웨어 개발에 대한 기본기를 쌓았습니다.`,
+  },
+  {
+    title: "해봄 사업",
+    date: "22.03 — 23.06",
+    subTitle: "대학교 내에 해봄 사업",
+    content: `대학교 내에 사업으로 지역내 초, 중, 고등학교에서 
+    학생 대상으로 수업을 진행하였습니다. 
+    프로그램 내에서 알고 있는 지식을 공유를 하며 부족한 부분에 대해서
+    채울 수 있는 계기가 되었습니다.
+    `,
+  },
+];
+
+//[skill-card, ...리스트]
+const skillData = [
+  ["backEnd", "Java", "Node.js", "Flask"],
+  ["FrontEnd", "JavaScript", "React", "React-Native", "WebSquare"],
+  ["DataBase", "MySql", "MongoDB"],
+  ["Tools", "Git", "GitHub", "VSCode", "Eclipse", "Figma"],
+];

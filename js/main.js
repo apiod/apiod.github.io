@@ -122,7 +122,14 @@ const projectDetailData = {
       <h3>사용 기술</h3>
 
       <p>
-        React Native · Expo · JavaScript · API
+        React Native · Expo · JavaScript · OSS
+      </p>
+
+      <h3>주요 경험</h3>
+
+      <p>
+        Open Source Software를 이용해서 API로 데이터를 불러오고 
+        사용자가 지정한 시간에 push알림을 주는 이벤트를 과정을 경험했습니다.
       </p>
     `,
   },
@@ -144,6 +151,12 @@ const projectDetailData = {
         <li>OCR 데이터 처리</li>
         <li>졸업요건 화면 구현</li>
       </ul>
+
+      <h3>사용 기술</h3>
+
+      <p>
+        React Native · Expo · JavaScript
+      </p>
 
       <h3>주요 경험</h3>
 
