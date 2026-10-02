@@ -1,14 +1,25 @@
-const procjetGrid = document.querySelector(".projects-grid");
-projectData.forEach((data) => {
+const procjetGrid = document.querySelectorAll(".projects-grid");
+
+const createContent = (data) => {
   let techs = "";
   data.tech.forEach((tech) => {
-    techs += `<span>${tech}</span>\n`;
-    if (data.length !== data.tech.indexOf(tech)) {
-      techs += ", ";
-    }
+    techs += `<span>${tech}</span>`;
   });
-  procjetGrid.innerHTML += `
-    <article class="project-card">
+  const checkedDetail = () => {
+    if (!data.projectDetail) {
+      return "";
+    } else {
+      return `<button
+            type="button"
+            class="detail-button"
+            data-project=${data.projectDetail}
+            >
+            자세히 보기 →
+            </button>`;
+    }
+  };
+
+  return ` <article class="project-card">
         <div class="project-number">${data.id + 1}</div>
         <div class="project-content">
         <p class="project-category">${data.category}</p>
@@ -24,15 +35,17 @@ projectData.forEach((data) => {
             href=${data.projcet_link}
             target="_blank"
             >GitHub →</a
-            ><button
-            type="button"
-            class="detail-button"
-            data-project=${data.projectDetail}
-            >
-            자세히 보기 →
-            </button>
+            >${checkedDetail()}
         </div>
         </div>
     </article>
     `;
+};
+
+projectData.forEach((data) => {
+  //project
+  procjetGrid[0].innerHTML += createContent(data);
+});
+porjectKostaData.forEach((data) => {
+  procjetGrid[1].innerHTML += createContent(data);
 });
