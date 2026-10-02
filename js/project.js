@@ -36,7 +36,7 @@ const createContent = (data) => {
         </div>
         <div class="project-links">
             <a
-            href=${data.projcet_link}
+            href=${data.project_link}
             target="_blank"
             >GitHub →</a
             >${checkedDetail()}
