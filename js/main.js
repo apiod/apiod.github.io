@@ -30,7 +30,7 @@ const modalOverlay = document.querySelector("#modalOverlay");
 const modalClose = document.querySelector("#modalClose");
 const modalBody = document.querySelector("#modalBody");
 
-const projectData = {
+const projectDetailData = {
   conversation: {
     title: "대화 분석 애플리케이션",
 
@@ -162,7 +162,7 @@ detailButtons.forEach((button) => {
   button.addEventListener("click", () => {
     const projectId = button.dataset.project;
 
-    const project = projectData[projectId];
+    const project = projectDetailData[projectId];
 
     if (!project) {
       return;
