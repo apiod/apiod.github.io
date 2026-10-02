@@ -9,7 +9,7 @@ const createContent = (data) => {
     if (!data.projectDetail) {
       return `<div class="project-links">
             <a href=${data.projectpage} target="_blank">
-            프로젝트 1
+            프로젝트 페이지보기
             </a>
             </div>`;
     } else {
